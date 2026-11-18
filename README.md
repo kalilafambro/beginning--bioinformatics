@@ -3,7 +3,6 @@ beginning bioinformatics course code
 Kalila Fambro + 1002352833 + BIOL5340-001
 
 
-
 # Benchmarking BLAST and k-mer machine learning for Fusarium species-complex identification from EF-1α sequences
 
 Bioinformatics final project (solo), draft stage.
@@ -29,13 +28,13 @@ NCBI GenBank EF-1α records retrieved with Biopython Entrez, labelled by species
 - `ai_usage.md`: AI-use log
 
 ## Methods in brief
-Study-level train/test split (231 train / 126 test sequences). BLAST database built from training sequences only; ties and no-hit count as errors. 6-mer count features, L2 normalized, class-balanced logistic regression (C tuned by study-grouped CV). Truncation to 100/75/50% of length; all truncated copies of a sequence stay together. 95% bootstrap CIs over original sequences.
+Study-level train/test split (235 train / 123 test sequences, seed 42). BLAST database built from training sequences only; ties and no-hit count as errors. 6-mer count features, L2 normalized, class-balanced logistic regression (C tuned by study-grouped CV). Truncation to 100/75/50% of length; all truncated copies of a sequence stay together. 95% bootstrap CIs over original sequences.
 
 ## Status
-Done: data curation, BLAST and k-mer models, truncation to 50%, bootstrap, figures, similarity-bin check. To do: 25% and 10% truncation, final report and presentation.
+Done: data curation (363 records after cleaning, 358 used), BLAST and k-mer models, truncation to 50%, bootstrap, figures, similarity-bin check. To do: 25% and 10% truncation, final report and presentation.
 
 ## Software versions
-Python [version], Biopython [version], scikit-learn [version], BLAST+ [version].
+Python 3.13.18, Biopython 1.88, scikit-learn 1.6.1, BLAST+ 2.12.0+.
 
 ## References
 Altschul et al. (1990); Camacho et al. (2009); Cock et al. (2009); O'Donnell et al. (2010); Pedregosa et al. (2011); Sayers et al. (2024); Thomas et al. (2019). Full list in the report.
