@@ -2,7 +2,6 @@
 beginning bioinformatics course code 
 Kalila Fambro + 1002352833 + BIOL5340-001
 
-
 # Benchmarking BLAST and k-mer machine learning for Fusarium species-complex identification from EF-1α sequences
 
 Bioinformatics final project (solo), draft stage.
