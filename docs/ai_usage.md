@@ -13,6 +13,7 @@ Ai log #1
 - How I verified correctness (tests, sample data):used verified sample datasets from Rosalind questions before testing the actual assignment. 
 
 Ai log #2
+
 **-Tool/model & version:** Claude (Anthropic)
 **-What I asked for:** Help scoping the final project to my professor's feedback (one locus, BLAST, one k-mer model, limited truncation experiment, original-sequence-level uncertainty) and help modify the code in Colab notebook.
 **-Snippet of prompt(s):** "how can i download the software in colab"; "I put false for the demo, but it gets stuck at #4"
